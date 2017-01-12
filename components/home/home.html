@@ -1,0 +1,3 @@
+<div class="row margin-top-30">
+    <widget ng-repeat="section in vm.config.sections | visible: vm.person" title="section.title" content="section.content" gallery="section.gallery" sections="section.sections" template="{{section.template || 'default'}}" image="section.image"></widget>
+</div>

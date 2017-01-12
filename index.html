@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="lib/jquery/dist/jquery.min.js"></script>
+  <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-animate/angular-animate.min.js"></script>  
+    <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+  
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" media="print" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/angular-animate-css/build/nga.all.min.css">
+  <link rel="stylesheet" href="app.css">
+  
+  <!-- widget Component -->
+  <link rel="stylesheet" href="components/widget/widget.css">
+  <script src="components/widget/widget.js"></script>
+  <script src="components/widget/widget.service.js"></script>
+  <script src="components/widget/widget.controller.js"></script>
+  <script src="components/widget/widget.component.js"></script>
+  <!-- widget Component End -->
+
+    <!-- home Component -->
+    <link rel="stylesheet" href="components/home/home.css">
+    <script src="components/home/home.js"></script>
+    <script src="components/home/home.service.js"></script>
+    <script src="components/home/home.controller.js"></script>
+    <script src="components/home/home.component.js"></script>
+    <!-- home Component End -->
+
+  <script src="app.js"></script>
+    <script src="config.js"></script>
+  <script src="common/app.directives.js"></script>
+  <script src="common/api.config.js"></script>
+</head>
+<body>
+  <div ui-view class="container"></div>
+</body>
+</html>

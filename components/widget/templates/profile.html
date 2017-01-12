@@ -1,0 +1,15 @@
+﻿<div class="row margin-bottom-30 profilepage">
+    <div class="col-sm-3 col-md-2">
+        <img class="profile img-circle" ng-src="{{vm.image}}"/>
+    </div>
+    <div class="col-md-9">
+        <h3 ng-bind="vm.title">Section Title</h3>
+        <p ng-bind-html="vm.content" class="content-color">
+            Content
+        </p>
+    </div>
+</div>
+<div ng-if="vm.sections.length" ng-repeat="section in vm.sections | visible: vm.person">
+    <h4 ng-bind="section.title"></h4>
+    <p ng-bind-html="section.content" class="content-color"></p>
+</div>

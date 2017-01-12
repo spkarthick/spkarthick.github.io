@@ -1,0 +1,37 @@
+html, body, [ui-view] {
+	height: 100%;
+    background: #3F51B5;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.container .jumbotron {
+    background: #fff;
+    padding-top: 15px;
+    border-radius: 0px;
+}
+
+.container .jumbotron a {
+    outline: none!important;
+}
+
+.container .jumbotron p.content-color {
+    color: #808080;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.container .jumbotron p.media img{
+    width: 60px;
+    padding: 5px;
+}
+
+.width-100 {
+    width:100%;
+}
