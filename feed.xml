@@ -5,7 +5,7 @@
     <link>http://localhost:3000</link>
     <description><![CDATA[Articles, software projects, and developer insights by Karthick Sannasi Periyasamy (Full Stack Developer).]]></description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2026 10:32:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 10:53:36 GMT</lastBuildDate>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -35,28 +35,28 @@
       <link>#</link>
       <guid isPermaLink="false">http://localhost:3000/projects#1</guid>
       <description><![CDATA[A reusable frontend framework for rapidly building modular widgets with standardized configuration, lifecycle management, data loading, error handling, and shared UI behavior. Built with Angular, TypeScript, RxJS.]]></description>
-      <pubDate>Sat, 22 Aug 2026 10:32:15 GMT</pubDate>
+      <pubDate>Sat, 22 Aug 2026 10:53:36 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Project: Accessible Reorder Component]]></title>
       <link>#</link>
       <guid isPermaLink="false">http://localhost:3000/projects#2</guid>
       <description><![CDATA[A fully accessible reorder component designed for both pointer and keyboard interactions, with strong focus management and assistive technology support. Built with Angular, TypeScript, HTML, CSS.]]></description>
-      <pubDate>Sat, 22 Aug 2026 10:32:15 GMT</pubDate>
+      <pubDate>Sat, 22 Aug 2026 10:53:36 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Project: High-Throughput Spring Boot Architecture]]></title>
       <link>#</link>
       <guid isPermaLink="false">http://localhost:3000/projects#3</guid>
       <description><![CDATA[A Spring Boot application designed and benchmarked for high request volumes, focusing on scalability, resilience, concurrency, observability, and performance tuning. Built with Java, Kotlin, Spring Boot, Apache Kafka, Docker, Microsoft Azure, Grafana, Micrometer.]]></description>
-      <pubDate>Sat, 22 Aug 2026 10:32:15 GMT</pubDate>
+      <pubDate>Sat, 22 Aug 2026 10:53:36 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Project: PSD2 API Integration]]></title>
       <link>#</link>
       <guid isPermaLink="false">http://localhost:3000/projects#4</guid>
       <description><![CDATA[A sandbox-based PSD2 integration demonstrating secure OAuth 2.0 authorization, external account connectivity, transaction retrieval, and normalized API processing. Built with Kotlin, Java, Spring Boot, OAuth, REST API.]]></description>
-      <pubDate>Sat, 22 Aug 2026 10:32:15 GMT</pubDate>
+      <pubDate>Sat, 22 Aug 2026 10:53:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
