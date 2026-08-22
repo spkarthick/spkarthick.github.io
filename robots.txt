@@ -1,0 +1,15 @@
+User-Agent: *
+Allow: /
+Disallow: /api/cron/
+Disallow: /api/wakatime
+
+User-Agent: GPTBot
+User-Agent: ClaudeBot
+User-Agent: PerplexityBot
+User-Agent: Google-Extended
+Allow: /
+Disallow: /api/cron/
+Disallow: /api/wakatime
+
+Host: http://localhost:3000
+Sitemap: http://localhost:3000/sitemap.xml

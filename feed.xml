@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[Karthick Sannasi Periyasamy - Software & Tech Feed]]></title>
+    <link>http://localhost:3000</link>
+    <description><![CDATA[Articles, software projects, and developer insights by Karthick Sannasi Periyasamy (Full Stack Developer).]]></description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Aug 2026 08:14:20 GMT</lastBuildDate>
+    <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title><![CDATA[Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse]]></title>
+      <link>#</link>
+      <guid isPermaLink="false">#</guid>
+      <description><![CDATA[Technical article by Karthick Sannasi Periyasamy covering Accessibility, Frontend, Angular, WCAG.]]></description>
+      <pubDate>Fri, 31 Jul 2026 18:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Designing a Configurable Widget Framework for Scalable Frontend Applications]]></title>
+      <link>#</link>
+      <guid isPermaLink="false">#</guid>
+      <description><![CDATA[Technical article by Karthick Sannasi Periyasamy covering Frontend Architecture, Angular, TypeScript, Design Patterns.]]></description>
+      <pubDate>Fri, 31 Jul 2026 18:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[OAuth 2.0 Beyond Login: Building Secure Third-Party API Integrations]]></title>
+      <link>#</link>
+      <guid isPermaLink="false">#</guid>
+      <description><![CDATA[Technical article by Karthick Sannasi Periyasamy covering OAuth, Security, APIs, Backend.]]></description>
+      <pubDate>Fri, 31 Jul 2026 18:30:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title><![CDATA[Project: Configurable UI Widget Framework]]></title>
+      <link>#</link>
+      <guid isPermaLink="false">http://localhost:3000/projects#1</guid>
+      <description><![CDATA[A reusable frontend framework for rapidly building modular widgets with standardized configuration, lifecycle management, data loading, error handling, and shared UI behavior. Built with Angular, TypeScript, RxJS.]]></description>
+      <pubDate>Sat, 22 Aug 2026 08:14:20 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Project: Accessible Reorder Component]]></title>
+      <link>#</link>
+      <guid isPermaLink="false">http://localhost:3000/projects#2</guid>
+      <description><![CDATA[A fully accessible reorder component designed for both pointer and keyboard interactions, with strong focus management and assistive technology support. Built with Angular, TypeScript, HTML, CSS.]]></description>
+      <pubDate>Sat, 22 Aug 2026 08:14:20 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Project: High-Throughput Spring Boot Architecture]]></title>
+      <link>#</link>
+      <guid isPermaLink="false">http://localhost:3000/projects#3</guid>
+      <description><![CDATA[A Spring Boot application designed and benchmarked for high request volumes, focusing on scalability, resilience, concurrency, observability, and performance tuning. Built with Java, Kotlin, Spring Boot, Apache Kafka, Docker, Microsoft Azure, Grafana, Micrometer.]]></description>
+      <pubDate>Sat, 22 Aug 2026 08:14:20 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Project: PSD2 API Integration]]></title>
+      <link>#</link>
+      <guid isPermaLink="false">http://localhost:3000/projects#4</guid>
+      <description><![CDATA[A sandbox-based PSD2 integration demonstrating secure OAuth 2.0 authorization, external account connectivity, transaction retrieval, and normalized API processing. Built with Kotlin, Java, Spring Boot, OAuth, REST API.]]></description>
+      <pubDate>Sat, 22 Aug 2026 08:14:20 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

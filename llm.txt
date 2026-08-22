@@ -1,0 +1,68 @@
+# Karthick Sannasi Periyasamy - Full Stack Developer & Software Engineer
+URL: http://localhost:3000
+Email: spkarthick91@gmail.com
+Location: Chennai, India
+GitHub: https://github.com/spkarthick
+LinkedIn: https://www.linkedin.com/in/karthick-s-p
+
+## ABOUT
+Passionate developer building modern web experiences with strong frontend craftsmanship, scalable backend systems, cloud-native engineering, and practical AI integration.
+
+## CORE SKILLS
+Languages: JavaScript, TypeScript
+Frameworks: Reactjs, Nextjs, Nodejs, NestJs, Express
+Databases: Postgres, My Sql, MongoDB, Redis, Supabase
+Orm: Prisma ORM, Drizzle ORM
+Styling: TailwindCSS, Shadcn Ui
+Tools: Git, Docker, Postman, Figma, Nginx, Github Actions
+Other: OAuth, TanStack Query, React-Redux, React-Router, Chat GPT
+
+## FEATURED PROJECTS
+- Configurable UI Widget Framework: A reusable frontend framework for rapidly building modular widgets with standardized configuration, lifecycle management, data loading, error handling, and shared UI behavior.
+  Live: # | GitHub: #
+  Tech: Angular, TypeScript, RxJS
+- Accessible Reorder Component: A fully accessible reorder component designed for both pointer and keyboard interactions, with strong focus management and assistive technology support.
+  Live: # | GitHub: #
+  Tech: Angular, TypeScript, HTML, CSS
+- High-Throughput Spring Boot Architecture: A Spring Boot application designed and benchmarked for high request volumes, focusing on scalability, resilience, concurrency, observability, and performance tuning.
+  Live: # | GitHub: #
+  Tech: Java, Kotlin, Spring Boot, Apache Kafka, Docker, Microsoft Azure, Grafana, Micrometer
+- PSD2 API Integration: A sandbox-based PSD2 integration demonstrating secure OAuth 2.0 authorization, external account connectivity, transaction retrieval, and normalized API processing.
+  Live: # | GitHub: #
+  Tech: Kotlin, Java, Spring Boot, OAuth, REST API
+
+## ALL PROJECTS
+- Configurable UI Widget Framework: A reusable frontend framework for rapidly building modular widgets with standardized configuration, lifecycle management, data loading, error handling, and shared UI behavior. (#)
+- Accessible Reorder Component: A fully accessible reorder component designed for both pointer and keyboard interactions, with strong focus management and assistive technology support. (#)
+- High-Throughput Spring Boot Architecture: A Spring Boot application designed and benchmarked for high request volumes, focusing on scalability, resilience, concurrency, observability, and performance tuning. (#)
+- PSD2 API Integration: A sandbox-based PSD2 integration demonstrating secure OAuth 2.0 authorization, external account connectivity, transaction retrieval, and normalized API processing. (#)
+
+## RECENT ARTICLES
+- Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse (Aug 2026): #
+- Designing a Configurable Widget Framework for Scalable Frontend Applications (Aug 2026): #
+- OAuth 2.0 Beyond Login: Building Secure Third-Party API Integrations (Aug 2026): #
+
+## WORK EXPERIENCE
+- Senior Full Stack Developer at Cognizant Technology Solutions (Feb 2017 - Present)
+  * Developed and maintained large-scale customer-facing web applications across frontend and backend systems.
+  * Built responsive and accessible user interfaces using Angular and TypeScript with a strong focus on performance and maintainability.
+  * Designed reusable frontend architectures, component frameworks, and shared development patterns.
+  * Developed scalable backend services and APIs using Kotlin, Java, and Spring Boot.
+  * Worked on performance optimization, scalability, resilience, and production stability for highly available applications.
+  * Implemented monitoring and observability using tools such as Micrometer, Splunk, Dynatrace, and Grafana.
+  * Collaborated directly with international stakeholders on solution design, feature delivery, technical decisions, and production support.
+  * Contributed across development, testing, code reviews, deployment, monitoring, and ongoing application support.
+- Frontend Developer at Mindtree (Aug 2015 - Feb 2017)
+  * Developed responsive frontend applications for large-scale consumer-facing web platforms.
+  * Built interactive user interfaces using AngularJS, JavaScript, HTML, and CSS.
+  * Worked closely with UX and design teams to translate designs into functional and responsive web experiences.
+  * Developed reusable frontend components and maintained consistent behavior across different application flows.
+  * Focused on application usability, performance, scalability, and compatibility across browsers and devices.
+  * Collaborated with cross-functional teams across development, testing, and delivery.
+- Software Developer at Syncfusion Inc. (Jul 2012 - Aug 2015)
+  * Developed and maintained reusable enterprise UI components and JavaScript widget libraries.
+  * Built high-performance controls using JavaScript, jQuery, and jQuery Mobile.
+  * Designed components with rich configuration and customization capabilities for use across different applications.
+  * Worked on responsive behavior and cross-browser compatibility across supported platforms.
+  * Improved component performance, stability, and usability through debugging and optimization.
+  * Contributed to reusable UI engineering patterns that could be integrated into enterprise web applications.

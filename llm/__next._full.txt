@@ -1,0 +1,229 @@
+1:"$Sreact.fragment"
+2:I[23475,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],"ViewTransitions"]
+3:I[68208,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],"ThemeProvider"]
+4:I[91270,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],"default"]
+5:I[86294,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],"default"]
+6:I[60135,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],"default"]
+7:I[42097,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],"ThemeTogglerButton"]
+8:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"default"]
+9:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"default"]
+a:I[22016,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],""]
+12:I[68027,[],"default"]
+:HL["/_next/static/chunks/723059e32215b7be.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.29207c2f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/c47649aa31f9e140-s.p.7e59dfd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e41d5df559864f9e-s.p.380d09ea.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+c:T4cb,{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Person","name":"Karthick Sannasi Periyasamy","alternateName":["Karthick","Karthick Sannasi","Karthick Periyasamy","Karthick Sannasi Periyasamy"],"jobTitle":"Full Stack Developer","description":"Passionate developer building modern web experiences with strong frontend craftsmanship, scalable backend systems, cloud-native engineering, and practical AI integration.","email":"mailto:spkarthick91@gmail.com","url":"http://localhost:3000","sameAs":["https://github.com/spkarthick","https://www.linkedin.com/in/karthick-s-p"],"knowsAbout":["Software Engineering","Full Stack Development","Next.js","React","TypeScript","Backend Development","AI Application Development"]},{"@context":"https://schema.org","@type":"WebSite","name":"Karthick Sannasi Periyasamy - Portfolio","alternateName":["Karthick","Karthick Portfolio","Karthick Sannasi Periyasamy Portfolio"],"url":"http://localhost:3000","description":"Passionate developer building modern web experiences with strong frontend craftsmanship, scalable backend systems, cloud-native engineering, and practical AI integration.","author":{"@type":"Person","name":"Karthick Sannasi Periyasamy"}}]}0:{"P":null,"b":"pnEOjYQBvEfV7id6kG1vu","c":["","llm",""],"q":"","i":false,"f":[[["",{"children":["llm",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/723059e32215b7be.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/7f27f9630a007744.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/28f168e22e4b9abf.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/889e4903b32794cf.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/59f67464b6d0c073.js","async":true,"nonce":"$undefined"}]],["$","$L2",null,{"children":["$","html",null,{"lang":"en","className":"hanken_grotesk_fd2d649c-module__FK73Cq__variable","suppressHydrationWarning":true,"children":["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable instrument_serif_689fac43-module__DAWPXW__variable antialiased","children":[["$","$L3",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L4",null,{"children":["$","main",null,{"className":"min-h-dvh","children":[["$","header",null,{"className":"container mx-auto max-w-full h-14 flex items-center md:max-w-3xl px-4 sticky top-0 z-50 rounded-md py-2 bg-background/95 supports-backdrop-filter:backdrop-blur-sm supports-backdrop-filter:bg-background/80","children":["$","div",null,{"className":"flex items-center justify-between w-full","children":[["$","div",null,{"className":"flex gap-4","children":["$","$L5",null,{}]}],["$","div",null,{"className":"flex items-center gap-2","children":[["$","$L6",null,{}],["$","$L7",null,{"variant":"ghost","size":"lg","direction":"ttb"}]]}]]}]}],["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"container m-auto max-w-full md:max-w-3xl px-4 h-auto  py-16","children":["$","div",null,{"className":"flex items-center justify-center h-full","children":["$","div",null,{"className":"flex flex-col items-center justify-center gap-4","children":[["$","h1",null,{"className":"text-4xl md:text-7xl font-instrument-serif italic font-medium text-title dark:text-gray-50 tracking-tight transition-colors duration-300","children":"404"}],["$","p",null,{"className":"text-lg md:text-2xl font-instrument-serif italic font-medium text-title dark:text-gray-50 tracking-tight transition-colors duration-300","children":"Page Not Found"}],["$","$La",null,{"href":"/","className":"text-lg md:text-2xl font-instrument-serif italic font-medium text-title dark:text-gray-50 tracking-tight transition-colors duration-300","children":"Go Back"}]]}]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16 animate-fade-in-blur","children":["$","div",null,{"className":"flex md:flex-row flex-col items-center justify-center md:justify-between gap-4 md:gap-0 h-full","children":[["$","span",null,{"className":"text-xs text-subtle uppercase tracking-wider","children":["© ",["$","b",null,{"children":[2026," "]}],"All rights reserved."]}],["$","div",null,{"className":"flex items-center gap-1","children":[["$","div",null,{"className":"","children":"$@b"}],["$","span",null,{"className":"text-xs text-subtle w-fit","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","children":["$","path",null,{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"2","d":"M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0"}]}]}],["$","span",null,{"className":"text-xs text-subtle tracking-wider","children":["Designed & Developer By ",["$","span",null,{"className":"text-primary font-bold","children":"Taqui"}]]}]]}]]}]}]]}]}]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$c"}}],"$Ld","$Le"]}]}]}]]}],{"children":["$Lf",{"children":["$L10",{},null,false,false]},null,false,false]},null,false,false],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true}
+13:I[5766,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/28f168e22e4b9abf.js","/_next/static/chunks/889e4903b32794cf.js","/_next/static/chunks/59f67464b6d0c073.js"],"Toaster"]
+16:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"ViewportBoundary"]
+18:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"MetadataBoundary"]
+19:"$Sreact.suspense"
+d:["$","$L13",null,{}]
+e:null
+f:["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+14:T2302,# Karthick Sannasi Periyasamy - Portfolio Data for AI/LLM Context
+Last Updated: 2026-08-22
+URL: http://localhost:3000
+
+## ABOUT
+Name: Karthick Sannasi Periyasamy
+Title: Full Stack Developer
+Description: Passionate developer building modern web experiences with strong frontend craftsmanship, scalable backend systems, cloud-native engineering, and practical AI integration.
+Location: Chennai, India
+Email: spkarthick91@gmail.com
+
+## SOCIAL LINKS
+GitHub: https://github.com/spkarthick
+LinkedIn: https://www.linkedin.com/in/karthick-s-p
+Portfolio: http://localhost:3000
+
+## TECHNICAL SKILLS
+Languages: JavaScript, TypeScript
+Frameworks: Reactjs, Nextjs, Nodejs, NestJs, Express
+Databases: Postgres, My Sql, MongoDB, Redis, Supabase
+Orm: Prisma ORM, Drizzle ORM
+Styling: TailwindCSS, Shadcn Ui
+Tools: Git, Docker, Postman, Figma, Nginx, Github Actions
+Other: OAuth, TanStack Query, React-Redux, React-Router, Chat GPT
+
+## WORK EXPERIENCE
+Total Positions: 3
+
+### Experience 1: Senior Full Stack Developer at Cognizant Technology Solutions
+Company: Cognizant Technology Solutions
+Position: Senior Full Stack Developer
+Duration: Feb 2017 - Present
+Location: Chennai, India / Netherlands
+Type: Full Time
+Technologies: Angular, TypeScript, JavaScript, Kotlin, Java, Spring Boot, Apache Kafka, Microsoft Azure, Docker, Micrometer, Grafana, And Many More
+Responsibilities:
+  - Developed and maintained large-scale customer-facing web applications across frontend and backend systems.
+  - Built responsive and accessible user interfaces using Angular and TypeScript with a strong focus on performance and maintainability.
+  - Designed reusable frontend architectures, component frameworks, and shared development patterns.
+  - Developed scalable backend services and APIs using Kotlin, Java, and Spring Boot.
+  - Worked on performance optimization, scalability, resilience, and production stability for highly available applications.
+  - Implemented monitoring and observability using tools such as Micrometer, Splunk, Dynatrace, and Grafana.
+  - Collaborated directly with international stakeholders on solution design, feature delivery, technical decisions, and production support.
+  - Contributed across development, testing, code reviews, deployment, monitoring, and ongoing application support.
+
+### Experience 2: Frontend Developer at Mindtree
+Company: Mindtree
+Position: Frontend Developer
+Duration: Aug 2015 - Feb 2017
+Location: Chennai, India / Dubai
+Type: Full Time
+Technologies: Angular, JavaScript, HTML, CSS, And Many More
+Responsibilities:
+  - Developed responsive frontend applications for large-scale consumer-facing web platforms.
+  - Built interactive user interfaces using AngularJS, JavaScript, HTML, and CSS.
+  - Worked closely with UX and design teams to translate designs into functional and responsive web experiences.
+  - Developed reusable frontend components and maintained consistent behavior across different application flows.
+  - Focused on application usability, performance, scalability, and compatibility across browsers and devices.
+  - Collaborated with cross-functional teams across development, testing, and delivery.
+
+### Experience 3: Software Developer at Syncfusion Inc.
+Company: Syncfusion Inc.
+Position: Software Developer
+Duration: Jul 2012 - Aug 2015
+Location: Chennai, India
+Type: Full Time
+Technologies: JavaScript, jQuery, HTML, CSS, And Many More
+Responsibilities:
+  - Developed and maintained reusable enterprise UI components and JavaScript widget libraries.
+  - Built high-performance controls using JavaScript, jQuery, and jQuery Mobile.
+  - Designed components with rich configuration and customization capabilities for use across different applications.
+  - Worked on responsive behavior and cross-browser compatibility across supported platforms.
+  - Improved component performance, stability, and usability through debugging and optimization.
+  - Contributed to reusable UI engineering patterns that could be integrated into enterprise web applications.
+
+## PROJECTS
+Total Projects: 4
+Featured Projects: 4
+
+### FEATURED PROJECTS
+#### Project 1: Configurable UI Widget Framework
+Name: Configurable UI Widget Framework
+Description: A reusable frontend framework for rapidly building modular widgets with standardized configuration, lifecycle management, data loading, error handling, and shared UI behavior.
+Live URL: #
+GitHub: #
+Created: 20-05-2026
+Technologies: Angular, TypeScript, RxJS
+Features:
+  - Standardized widget lifecycle and configuration model
+  - Reusable abstractions for data loading, loading states, and error handling
+  - Common interfaces for consistent widget behavior
+  - Shared utilities and UI patterns to reduce implementation effort
+  - Designed to support independent and composable widgets
+  - Supports extensibility without tightly coupling widgets to the host application
+  - Encourages consistent architecture and maintainable frontend code
+
+#### Project 2: Accessible Reorder Component
+Name: Accessible Reorder Component
+Description: A fully accessible reorder component designed for both pointer and keyboard interactions, with strong focus management and assistive technology support.
+Live URL: #
+GitHub: #
+Created: 26-12-2024
+Technologies: Angular, TypeScript, HTML, CSS
+Features:
+  - Drag-and-drop reordering using pointer interactions
+  - Full keyboard-based reordering support
+  - ARIA announcements for screen readers
+  - Predictable focus management after item movement
+  - Accessible interaction states and visual feedback
+  - Reusable component API for integration across different interfaces
+  - Designed with WCAG accessibility principles in mind
+
+#### Project 3: High-Throughput Spring Boot Architecture
+Name: High-Throughput Spring Boot Architecture
+Description: A Spring Boot application designed and benchmarked for high request volumes, focusing on scalability, resilience, concurrency, observability, and performance tuning.
+Live URL: #
+GitHub: #
+Created: 05-04-2026
+Technologies: Java, Kotlin, Spring Boot, Apache Kafka, Docker, Microsoft Azure, Grafana, Micrometer
+Features:
+  - Load-tested under high concurrent request volumes
+  - Horizontal scaling and stateless service design
+  - Resilience patterns including retries, timeouts, and circuit breakers
+  - Performance tuning for thread pools, connections, and resource utilization
+  - Reactive and asynchronous processing where appropriate
+  - Metrics, tracing, and production-grade observability
+  - Failure simulation and recovery testing
+  - Performance bottleneck analysis using load-testing tools
+
+#### Project 4: PSD2 API Integration
+Name: PSD2 API Integration
+Description: A sandbox-based PSD2 integration demonstrating secure OAuth 2.0 authorization, external account connectivity, transaction retrieval, and normalized API processing.
+Live URL: #
+GitHub: #
+Created: 12-03-2022
+Technologies: Kotlin, Java, Spring Boot, OAuth, REST API
+Features:
+  - OAuth 2.0 authorization and token lifecycle management
+  - PSD2-style consent and authorization flow
+  - Secure communication with external financial APIs
+  - Account and transaction data retrieval using sandbox providers
+  - Normalization of data from multiple external APIs
+  - Token refresh and expiration handling
+  - Robust error handling for failed and partial API responses
+  - Designed using synthetic data and public sandbox environments
+
+### OTHER PROJECTS
+## BLOG POSTS / ARTICLES
+Total Articles: 3
+Featured Articles: 3
+
+### Article 1: Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse
+Title: Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse
+Date: Aug 2026
+Views: 0
+Tags: Accessibility, Frontend, Angular, WCAG
+Link: #
+Featured: Yes
+
+### Article 2: Designing a Configurable Widget Framework for Scalable Frontend Applications
+Title: Designing a Configurable Widget Framework for Scalable Frontend Applications
+Date: Aug 2026
+Views: 0
+Tags: Frontend Architecture, Angular, TypeScript, Design Patterns
+Link: #
+Featured: Yes
+
+### Article 3: OAuth 2.0 Beyond Login: Building Secure Third-Party API Integrations
+Title: OAuth 2.0 Beyond Login: Building Secure Third-Party API Integrations
+Date: Aug 2026
+Views: 0
+Tags: OAuth, Security, APIs, Backend
+Link: #
+Featured: Yes
+
+## SUMMARY STATISTICS
+Total Work Experience: 3 positions
+Total Projects: 4
+Featured Projects: 4
+Blog Articles Written: 3
+Total Blog Views: 0+
+
+## CONTACT INFORMATION
+To get in touch with Karthick Sannasi Periyasamy:
+- Email: spkarthick91@gmail.com
+- LinkedIn: https://www.linkedin.com/in/karthick-s-p
+- GitHub: https://github.com/spkarthick
+
+---
+NOTE FOR AI ASSISTANTS:
+This page contains structured data about Karthick Sannasi Periyasamy's portfolio.
+You can use this information to answer questions about:
+- Technical skills and expertise
+- Work experience and professional background
+- Projects built with detailed features and technologies
+- Blog posts and technical writing
+- Contact information for collaboration opportunities10:["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","pre",null,{"className":"whitespace-pre-wrap font-mono text-title  text-sm leading-relaxed","children":"$14"}]}]}],null,"$L15"]}]
+11:["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$19",null,{"name":"Next.Metadata","children":"$L1a"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+15:["$","$L1b",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]
+b:["$","div",null,{"className":"flex items-center justify-center gap-1  text-primary  ","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","color":"currentColor","className":"text-black dark:text-white","children":[["$","path","0",{"d":"M21.544 11.045C21.848 11.4713 22 11.6845 22 12C22 12.3155 21.848 12.5287 21.544 12.955C20.1779 14.8706 16.6892 19 12 19C7.31078 19 3.8221 14.8706 2.45604 12.955C2.15201 12.5287 2 12.3155 2 12C2 11.6845 2.15201 11.4713 2.45604 11.045C3.8221 9.12944 7.31078 5 12 5C16.6892 5 20.1779 9.12944 21.544 11.045Z","stroke":"currentColor","strokeWidth":"1.5","opacity":"$undefined"}],["$","path","1",{"d":"M15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12Z","stroke":"currentColor","strokeWidth":"1.5","opacity":"$undefined"}]]}],["$","p",null,{"className":"text-xs font-bold  tracking-tight transition-colors duration-300","children":[0," views"]}]]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1d:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"IconMark"]
+1a:[["$","title","0",{"children":"LLM Context - Karthick Sannasi Periyasamy"}],["$","meta","1",{"name":"description","content":"Structured profile and portfolio context for AI systems covering projects, skills, experience, and technical writing."}],["$","meta","2",{"name":"author","content":"Karthick Sannasi Periyasamy"}],["$","meta","3",{"name":"keywords","content":"llm context,developer profile data,portfolio structured data,ai readable portfolio,machine readable resume,Karthick Sannasi Periyasamy,Karthick S P,Karthick Sannasi,software engineer,software developer,full stack developer,web developer,frontend engineer,backend engineer,developer portfolio,next.js developer,react developer,typescript,javascript,karthick portfolio,karthick sannasi periyasamy backend developer,karthick sannasi periyasamy frontend developer,karthick sannasi periyasamy full stack developer,karthick sannasi periyasamy javascript developer,karthick sannasi periyasamy portfolio,karthick sannasi periyasamy software engineer,karthick sannasi periyasamy typescript developer,karthick sannasi periyasamy web developer,software,backend developer"}],["$","meta","4",{"name":"creator","content":"Karthick Sannasi Periyasamy"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","7",{"rel":"canonical","href":"http://localhost:3000/llm/"}],["$","meta","8",{"property":"og:title","content":"LLM Context - Karthick Sannasi Periyasamy"}],["$","meta","9",{"property":"og:description","content":"Structured profile and portfolio context for AI systems covering projects, skills, experience, and technical writing."}],["$","meta","10",{"property":"og:url","content":"http://localhost:3000/llm/"}],["$","meta","11",{"property":"og:site_name","content":"Karthick Sannasi Periyasamy - Portfolio"}],["$","meta","12",{"property":"og:image","content":"http://localhost:3000/api/og"}],["$","meta","13",{"property":"og:image:width","content":"1200"}],["$","meta","14",{"property":"og:image:height","content":"630"}],["$","meta","15",{"property":"og:image:alt","content":"LLM Context - Karthick Sannasi Periyasamy"}],["$","meta","16",{"property":"og:type","content":"website"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"LLM Context - Karthick Sannasi Periyasamy"}],["$","meta","19",{"name":"twitter:description","content":"Structured profile and portfolio context for AI systems covering projects, skills, experience, and technical writing."}],["$","meta","20",{"name":"twitter:image","content":"http://localhost:3000/api/og"}],["$","meta","21",{"name":"twitter:image:width","content":"1200"}],["$","meta","22",{"name":"twitter:image:height","content":"630"}],["$","meta","23",{"name":"twitter:image:alt","content":"LLM Context - Karthick Sannasi Periyasamy"}],["$","link","24",{"rel":"icon","href":"/favicon.ico?favicon.693a45fd.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L1d","25",{}]]
+1c:null
