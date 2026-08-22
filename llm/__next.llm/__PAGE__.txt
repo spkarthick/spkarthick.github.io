@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-2:T2302,# Karthick Sannasi Periyasamy - Portfolio Data for AI/LLM Context
+2:T2377,# Karthick Sannasi Periyasamy - Portfolio Data for AI/LLM Context
 Last Updated: 2026-08-22
 URL: http://localhost:3000
 
@@ -157,7 +157,7 @@ Title: Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse
 Date: Aug 2026
 Views: 0
 Tags: Accessibility, Frontend, Angular, WCAG
-Link: #
+Link: https://medium.com/@spkarthick91/accessible-drag-and-drop-building-a-reorder-component-for-screen-readers-44e38a8bacf7
 Featured: Yes
 
 ### Article 2: Designing a Configurable Widget Framework for Scalable Frontend Applications
@@ -197,6 +197,6 @@ You can use this information to answer questions about:
 - Work experience and professional background
 - Projects built with detailed features and technologies
 - Blog posts and technical writing
-- Contact information for collaboration opportunities0:{"buildId":"AWI1LDuRISzBrA_gJxqEm","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","pre",null,{"className":"whitespace-pre-wrap font-mono text-title  text-sm leading-relaxed","children":"$2"}]}]}],null,"$L3"]}],"loading":null,"isPartial":false}
+- Contact information for collaboration opportunities0:{"buildId":"hkx09Q7n7flrmTnjdUTN7","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","pre",null,{"className":"whitespace-pre-wrap font-mono text-title  text-sm leading-relaxed","children":"$2"}]}]}],null,"$L3"]}],"loading":null,"isPartial":false}
 3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
 6:null

@@ -1,0 +1,353 @@
+<h1>Accessible Drag and Drop: Building a Reorder Component for Screen Readers</h1>
+
+Drag-and-drop interfaces are intuitive for mouse and touch users, but they can become completely unusable for screen-reader users.
+
+<blockquote>This case study explores how to design an accessible reorder component that works well with assistive technology, using hidden controls, dynamic ARIA labels, and live-region announcements.</blockquote>
+
+<h2>The Core Idea</h2>
+
+Instead of trying to make a visual drag-and-drop interaction understandable to a screen reader, create a separate accessible interaction model.
+
+Each reorderable item includes a hidden control that remains available to assistive technologies. This parallel interaction path allows screen-reader users to complete the same task through a different, more logical workflow.
+
+The key principle: <strong>hide elements visually, but keep them available to screen readers.</strong>
+
+Use CSS positioning to move elements offscreen rather than `display: none` or `visibility: hidden`. These visibility properties also hide elements from the accessibility tree, making them unavailable to assistive technology.
+
+```css
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+```
+
+The hidden control can expose an accessible name such as:
+
+```html
+<button
+  class="visually-hidden"
+  aria-label="Reorder Profile widget">
+</button>
+```
+
+A sighted user continues using the normal drag handle. A screen-reader user gets an explicit reorder action.
+
+<h2>Step 1: Entering Drag Mode</h2>
+
+When the user activates the hidden reorder control, the component enters a dedicated drag mode and announces the current state.
+
+<strong>Example announcement:</strong>
+
+<blockquote>Reordering Profile widget. Current position 1 of 4.</blockquote>
+
+This announcement should come through an ARIA live region, which announces changes without moving focus or interrupting screen-reader navigation.
+
+```html
+<div
+  class="visually-hidden"
+  aria-live="polite"
+  aria-atomic="true">
+  {{ announcement }}
+</div>
+```
+
+When drag mode begins:
+
+```ts
+this.announcement =
+  `Reordering ${item.name}. Current position ${currentPosition} of ${totalItems}.`;
+```
+
+The live region provides contextual information without moving focus away from the interaction.
+
+Using `aria-live="polite"` is usually appropriate because reordering feedback is important, but it does not normally need to interrupt whatever the screen reader is currently announcing.
+
+<h2>Step 2: Change Labels During Drag Mode</h2>
+
+Before drag mode, each control describes the action available on that item:
+
+```text
+Reorder Profile widget
+Reorder Payments widget
+Reorder Notifications widget
+```
+
+Once an item is selected for reordering, the user's focus shifts. They no longer need to know which items they can reorder. They need to know where to drop the selected item.
+
+Update the labels to match this new context:
+
+```text
+Drop at position 2
+Drop at position 3
+Drop at position 4
+```
+
+Conceptually, this looks like:
+
+```ts
+if (this.dragMode) {
+  item.ariaLabel = `Drop at position ${position}`;
+}
+```
+
+<strong>Why this matters:</strong> Labels should always describe the action relevant to the current interaction state. This reduces cognitive load and makes the component easier to understand.
+
+<h2>Reduce Noise During Drag Mode</h2>
+
+One common accessibility problem is providing too much information at once.
+
+Imagine each item normally exposes multiple labels and controls:
+
+```text
+Payments widget
+Reorder Payments widget
+Widget options
+```
+
+During drag mode, most of this information becomes noise. The screen-reader user needs to hear:
+
+```text
+Drop at position 2
+Drop at position 3
+Drop at position 4
+```
+
+Temporarily hide or disable accessibility information that isn't relevant to the current reorder operation. Users should navigate through drop destinations without hearing unrelated controls.
+
+<blockquote><strong>Key Principle</strong>: Accessibility is not about exposing everything. It's about exposing the right information for the current interaction state.</blockquote>
+
+<h2>Step 3: Selecting the Drop Position</h2>
+
+The user navigates through the available positions using their normal screen-reader navigation or focus movement.
+
+Each available destination clearly describes itself:
+
+```html
+<button
+  class="visually-hidden"
+  aria-label="Drop at position 3">
+</button>
+```
+
+When the user activates one of these positions, the reorder operation completes.
+
+The component moves the selected item and exits drag mode.
+
+For example:
+
+```ts
+dropAt(position: number) {
+  this.moveItem(this.draggedIndex, position);
+
+  this.announcement =
+    `Item moved to position ${position}.`;
+
+  this.exitDragMode();
+}
+```
+
+The confirmation is important. A visual animation may clearly show that an item moved, but a screen-reader user needs an equivalent confirmation.
+
+<blockquote>Item moved to position 3.</blockquote>
+
+Something as simple as this announcement can make the interaction much easier to trust.
+
+<h2>Step 4: Reset the Accessibility State</h2>
+
+Drag mode is a temporary state.
+
+Once the item has been dropped, all temporary accessibility changes should be reverted.
+
+That includes:
+
+<ul>
+<li>clearing the selected drag item</li>
+<li>restoring the original reorder labels</li>
+<li>restoring controls hidden during drag mode</li>
+<li>removing temporary drop-position labels</li>
+<li>resetting drag-related state</li>
+<li>restoring focus appropriately</li>
+</ul>
+
+For example:
+
+```ts
+exitDragMode() {
+  this.dragMode = false;
+  this.draggedIndex = null;
+
+  this.items.forEach(item => {
+    item.ariaLabel = `Reorder ${item.name}`;
+  });
+}
+```
+
+This reset matters because accessibility state can otherwise become disconnected from the visual state of the component.
+
+If the UI says the drag operation is complete but the screen reader still announces "Drop at position 3," the component becomes confusing very quickly.
+
+<h2>Think of Drag Mode as a State Machine</h2>
+
+The implementation becomes easier to reason about if the reorder interaction is treated as a small state machine.
+
+<strong>Normal state</strong> — User navigates the list normally. Accessible actions describe the possibility of reordering:
+
+<pre><code>Reorder item</code></pre>
+
+<strong>Dragging state</strong> — An item has been selected. The component:
+<ul>
+<li>announces the current position</li>
+<li>remembers which item is being moved</li>
+<li>changes destination labels</li>
+<li>suppresses irrelevant controls</li>
+</ul>
+
+<strong>Drop state</strong> — User selects a destination. The component:
+<ul>
+<li>updates the ordering</li>
+<li>announces the result</li>
+<li>exits drag mode</li>
+</ul>
+
+<strong>Normal state again</strong> — All accessible labels and controls return to their default meaning.
+
+This approach keeps the accessibility behavior synchronized with the component's actual interaction state.
+
+<h2>Why an ARIA Live Region Helps</h2>
+
+A live region is especially useful for information that changes as the result of an action but does not naturally receive focus.
+
+Examples include:
+
+<pre><code>Current position 1 of 4.</code></pre>
+
+<pre><code>Item moved to position 3.</code></pre>
+
+<pre><code>Reorder cancelled.</code></pre>
+
+Without a live region, these state changes may be visually obvious but completely silent to a screen-reader user.
+
+However, live regions should be used carefully.
+
+Avoid announcing every minor focus movement or internal state change. Excessive announcements can make an interface harder to use rather than easier.
+
+Announce changes that materially affect the user's understanding of the operation.
+
+<h2>WCAG Principles in Practice</h2>
+
+Three WCAG principles are particularly relevant for accessible drag-and-drop components:
+
+<strong>Name, Role, Value</strong>
+
+Interactive controls need meaningful accessible names. A generic "Move" button tells users nothing. But "Reorder Notifications widget" or "Drop at position 3" makes the action clear.
+
+<strong>Status Messages</strong>
+
+State changes should be announced without moving focus. Use ARIA live regions to inform users when drag mode begins, when items move, or when operations complete.
+
+<strong>Focus Order</strong>
+
+Keep focus movement predictable. When the component's state changes, the focus order should remain stable. Sudden DOM manipulation that moves focus to unexpected locations will confuse users.
+
+<h2>Keep Visual and Accessible Interactions Separate When Necessary</h2>
+
+One of the most useful lessons from building this component was that the accessible interaction does not need to imitate the visual interaction exactly.
+
+<strong>For a mouse user:</strong> grab → drag → drop
+
+<strong>For a screen-reader user:</strong> select item → choose destination → confirm
+
+Both interactions accomplish the same task, but through different mechanical approaches.
+
+Trying to force a screen reader to experience a literal representation of pointer dragging can create unnecessary complexity.
+
+The goal is not identical interaction mechanics.
+
+The goal is an equivalent, understandable outcome.
+
+<h2>Implementation Example</h2>
+
+Here's how the core logic can be structured:
+
+```ts
+enterDragMode(index: number) {
+  this.dragMode = true;
+  this.draggedIndex = index;
+
+  this.announcement =
+    `Current position ${index + 1} of ${this.items.length}.`;
+
+  this.updateDropLabels();
+}
+
+updateDropLabels() {
+  this.items.forEach((item, index) => {
+    if (index !== this.draggedIndex) {
+      item.ariaLabel = `Drop at position ${index + 1}`;
+    }
+  });
+}
+
+dropAt(index: number) {
+  this.reorder(this.draggedIndex, index);
+
+  this.announcement =
+    `Item moved to position ${index + 1}.`;
+
+  this.exitDragMode();
+}
+
+exitDragMode() {
+  this.dragMode = false;
+  this.draggedIndex = null;
+
+  this.items.forEach(item => {
+    item.ariaLabel = `Reorder ${item.name}`;
+  });
+}
+```
+
+A production implementation will naturally contain more details around focus handling, cancellation, DOM updates, and screen-reader testing, but the core accessibility pattern is straightforward.
+
+<h2>Test With Actual Assistive Technology</h2>
+
+Inspecting ARIA attributes in developer tools is not enough. Test the complete workflow with real screen readers like NVDA or JAWS.
+
+<strong>What to test:</strong>
+
+<ol>
+<li>Navigate to an item and activate the reorder control</li>
+<li>Verify the current position is announced clearly</li>
+<li>Navigate through available drop positions</li>
+<li>Ensure each destination makes sense without the visual display</li>
+<li>Drop the item and verify confirmation</li>
+<li>Check that labels return to normal after drag mode exits</li>
+</ol>
+
+<strong>The key question:</strong> Could someone complete this entire interaction without seeing the screen?
+
+If yes, your accessibility design is solid.
+
+<h2>The Takeaway</h2>
+
+Accessible drag-and-drop is less about making screen readers understand dragging, and more about designing an equivalent interaction that makes sense in a non-visual context.
+
+This reorder component uses four key patterns:
+
+<ol>
+<li><strong>Hidden controls</strong> — Provide accessible actions that remain available to screen readers</li>
+<li><strong>Live region announcements</strong> — Communicate state changes without moving focus</li>
+<li><strong>Dynamic labels</strong> — Update accessible labels to match the current interaction state</li>
+<li><strong>Complete reset</strong> — Restore normal accessibility behavior once drag mode ends</li>
+</ol>
+
+The result is a component that works equally well for mouse users (grab → drag → drop) and screen-reader users (select → choose → confirm).
+
+<blockquote>The visual interface and the accessible interface don't need to be identical. They need to accomplish the same goal in ways that make sense for each user.</blockquote>

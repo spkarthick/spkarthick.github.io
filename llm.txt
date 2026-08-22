@@ -38,7 +38,7 @@ Other: OAuth, TanStack Query, React-Redux, React-Router, Chat GPT
 - PSD2 API Integration: A sandbox-based PSD2 integration demonstrating secure OAuth 2.0 authorization, external account connectivity, transaction retrieval, and normalized API processing. (#)
 
 ## RECENT ARTICLES
-- Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse (Aug 2026): #
+- Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse (Aug 2026): https://medium.com/@spkarthick91/accessible-drag-and-drop-building-a-reorder-component-for-screen-readers-44e38a8bacf7
 - Designing a Configurable Widget Framework for Scalable Frontend Applications (Aug 2026): #
 - OAuth 2.0 Beyond Login: Building Secure Third-Party API Integrations (Aug 2026): #
 
