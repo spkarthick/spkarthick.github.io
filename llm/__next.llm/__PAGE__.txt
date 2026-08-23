@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-2:T2377,# Karthick Sannasi Periyasamy - Portfolio Data for AI/LLM Context
-Last Updated: 2026-08-22
+2:T22bc,# Karthick Sannasi Periyasamy - Portfolio Data for AI/LLM Context
+Last Updated: 2026-08-23
 URL: http://localhost:3000
 
 ## ABOUT
@@ -149,8 +149,8 @@ Features:
 
 ### OTHER PROJECTS
 ## BLOG POSTS / ARTICLES
-Total Articles: 3
-Featured Articles: 3
+Total Articles: 2
+Featured Articles: 2
 
 ### Article 1: Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse
 Title: Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse
@@ -160,27 +160,19 @@ Tags: Accessibility, Frontend, Angular, WCAG
 Link: https://medium.com/@spkarthick91/accessible-drag-and-drop-building-a-reorder-component-for-screen-readers-44e38a8bacf7
 Featured: Yes
 
-### Article 2: Designing a Configurable Widget Framework for Scalable Frontend Applications
-Title: Designing a Configurable Widget Framework for Scalable Frontend Applications
+### Article 2: Why Average Response Time Is a Terrible Performance Metric
+Title: Why Average Response Time Is a Terrible Performance Metric
 Date: Aug 2026
 Views: 0
-Tags: Frontend Architecture, Angular, TypeScript, Design Patterns
-Link: #
-Featured: Yes
-
-### Article 3: OAuth 2.0 Beyond Login: Building Secure Third-Party API Integrations
-Title: OAuth 2.0 Beyond Login: Building Secure Third-Party API Integrations
-Date: Aug 2026
-Views: 0
-Tags: OAuth, Security, APIs, Backend
-Link: #
+Tags: Performance, Metrics, Spring Boot, APIs, Alerting
+Link: https://medium.com/@spkarthick91/why-average-response-time-is-a-terrible-performance-metric-5d63e36d6f7a
 Featured: Yes
 
 ## SUMMARY STATISTICS
 Total Work Experience: 3 positions
 Total Projects: 4
 Featured Projects: 4
-Blog Articles Written: 3
+Blog Articles Written: 2
 Total Blog Views: 0+
 
 ## CONTACT INFORMATION
@@ -197,6 +189,6 @@ You can use this information to answer questions about:
 - Work experience and professional background
 - Projects built with detailed features and technologies
 - Blog posts and technical writing
-- Contact information for collaboration opportunities0:{"buildId":"-zUA5vLtxiU4m_m7GIMn-","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","pre",null,{"className":"whitespace-pre-wrap font-mono text-title  text-sm leading-relaxed","children":"$2"}]}]}],null,"$L3"]}],"loading":null,"isPartial":false}
+- Contact information for collaboration opportunities0:{"buildId":"GRTuUHS1wcnPW5QScZO3_","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","pre",null,{"className":"whitespace-pre-wrap font-mono text-title  text-sm leading-relaxed","children":"$2"}]}]}],null,"$L3"]}],"loading":null,"isPartial":false}
 3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
 6:null
