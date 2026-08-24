@@ -40,6 +40,7 @@ Other: OAuth, TanStack Query, React-Redux, React-Router, Chat GPT
 ## RECENT ARTICLES
 - Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse (Aug 2026): https://medium.com/@spkarthick91/accessible-drag-and-drop-building-a-reorder-component-for-screen-readers-44e38a8bacf7
 - Why Average Response Time Is a Terrible Performance Metric (Aug 2026): https://medium.com/@spkarthick91/why-average-response-time-is-a-terrible-performance-metric-5d63e36d6f7a
+- Atomic Design for Standardizing Frontend Components (Aug 2026): https://medium.com/@spkarthick91/atomic-design-for-standardizing-frontend-components-6b9f71991895
 
 ## WORK EXPERIENCE
 - Senior Full Stack Developer at Cognizant Technology Solutions (Feb 2017 - Present)
