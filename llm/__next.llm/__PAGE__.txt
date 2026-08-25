@@ -2,7 +2,7 @@
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
 2:T23f7,# Karthick Sannasi Periyasamy - Portfolio Data for AI/LLM Context
-Last Updated: 2026-08-24
+Last Updated: 2026-08-25
 URL: http://localhost:3000
 
 ## ABOUT
@@ -197,6 +197,6 @@ You can use this information to answer questions about:
 - Work experience and professional background
 - Projects built with detailed features and technologies
 - Blog posts and technical writing
-- Contact information for collaboration opportunities0:{"buildId":"fmD8DqLSMZKY7VwA9tQQ3","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","pre",null,{"className":"whitespace-pre-wrap font-mono text-title  text-sm leading-relaxed","children":"$2"}]}]}],null,"$L3"]}],"loading":null,"isPartial":false}
+- Contact information for collaboration opportunities0:{"buildId":"_P4oTvgc07Rnx7jj9a1er","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"container mx-auto max-w-full md:max-w-3xl px-4 h-auto py-16","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","pre",null,{"className":"whitespace-pre-wrap font-mono text-title  text-sm leading-relaxed","children":"$2"}]}]}],null,"$L3"]}],"loading":null,"isPartial":false}
 3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
 6:null
