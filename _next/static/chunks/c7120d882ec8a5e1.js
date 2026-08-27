@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,64667,i=>{"use strict";var t=i.i(43476),c=i.i(58121),e=i.i(38720);i.s(["default",0,function(){return(0,t.jsx)("div",{className:"pt-8 grid grid-cols-1 md:grid-cols-2 gap-4",children:c.allProjects.map(i=>(0,t.jsx)(e.default,{project:i},i.id))})}])}]);
