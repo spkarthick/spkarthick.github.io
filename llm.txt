@@ -38,6 +38,7 @@ Other: OAuth, TanStack Query, React-Redux, React-Router, Chat GPT
 - PSD2 API Integration: A sandbox-based PSD2 integration demonstrating secure OAuth 2.0 authorization, external account connectivity, transaction retrieval, and normalized API processing. (#)
 
 ## RECENT ARTICLES
+- Running Batch Jobs on Cloud Foundry Using CF Tasks (Sep 2026): https://medium.com/@spkarthick91/running-batch-jobs-on-cloud-foundry-using-cf-tasks-23dab16ca31b
 - Accessible Drag and Drop: Building a Reorder Component Beyond the Mouse (Aug 2026): https://medium.com/@spkarthick91/accessible-drag-and-drop-building-a-reorder-component-for-screen-readers-44e38a8bacf7
 - Why Average Response Time Is a Terrible Performance Metric (Aug 2026): https://medium.com/@spkarthick91/why-average-response-time-is-a-terrible-performance-metric-5d63e36d6f7a
 - Atomic Design for Standardizing Frontend Components (Aug 2026): https://medium.com/@spkarthick91/atomic-design-for-standardizing-frontend-components-6b9f71991895
