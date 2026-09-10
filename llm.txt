@@ -15,7 +15,7 @@ Databases: Postgres, My Sql, MongoDB, Redis, Supabase
 Orm: Prisma ORM, Drizzle ORM
 Styling: TailwindCSS, Shadcn Ui
 Tools: Git, Docker, Postman, Figma, Nginx, Github Actions
-Other: OAuth, TanStack Query, React-Redux, React-Router, Chat GPT
+Other: OAuth, TanStack Query, React-Redux, React-Router, OpenAI
 
 ## FEATURED PROJECTS
 - Configurable UI Widget Framework: A reusable frontend framework for rapidly building modular widgets with standardized configuration, lifecycle management, data loading, error handling, and shared UI behavior.
